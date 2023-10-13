@@ -1,0 +1,1 @@
+let elementos = document.querySelectorAll('.duvida');
