@@ -161,7 +161,17 @@ h1, h2 {
     border-right: 1px solid var(--cor2);
     border-radius: 0 0 8px 8px;
     margin-top: -0.5em;
-    padding: 1.5em;
+    padding: 0 1.5em;
+    height: 0;
+    opacity: 0; /*linha desaparece*/
+    overflow: hidden;
+    transition: .2s;
+}
+ /* um grudado no outro, é para quando quer pegar duas classes ao mesmo tempo */
+.duvida.ativa .conteudo {
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
 }
 
 /* Rodapé */
