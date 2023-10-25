@@ -101,6 +101,14 @@ h1, h2 {
     z-index: -10; /*profundidade*/
 }
 
+@media screen and (max-width: 1000px) {
+    #inicio {
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
 /* Clínica */
 
 #clinica {
@@ -127,6 +135,18 @@ h1, h2 {
 #farmacia .conteudo {
     max-width: 59.375em;
     margin: 0 auto; /* truque para centralizar os elementos quando usa a propriedade acima: max-width*/
+}
+
+@media screen and (max-width: 1000px) {
+    #clinica {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #farmacia img {
+        position: relative;
+        right: 3em;
+    }
 }
 
 /* Dúvidas */
@@ -174,6 +194,33 @@ h1, h2 {
     padding: 24px;
 }
 
+@media screen and (max-width: 1000px){
+    #duvidas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .duvida {
+        position: relative;
+    }
+
+    .duvida img {
+        position: absolute;
+        top: 1.5em;
+        right: 1.0em;
+        
+    }
+
+    .duvida h3 {
+        padding: 1em;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+}
+
 /* Rodapé */
 
 footer {
@@ -210,6 +257,26 @@ footer p a {
     text-decoration: none;
     font-family: var(--Sans);
     font-weight: 700;
+}
+
+@media screen and (max-width: 700px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer .titulo {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer .titulo {
+        flex-direction: row;
+    }
 }
 
 /* Créditos */
