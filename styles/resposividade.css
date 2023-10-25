@@ -1,0 +1,194 @@
+/* header */
+
+@media screen and (max-width: 500px) {
+    
+    img {
+        padding-bottom: 10px;
+    }
+
+    header {
+        display: block;
+    }
+
+    header nav {
+        display: flex;
+    }
+
+    header nav a {
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        /* padding-bottom: 10px; */
+    }
+
+    header {
+        display: block;
+    }
+
+    header nav {
+        display: flex;
+    }
+
+    header nav a {
+        padding: 1em;
+    }
+}
+
+
+/* inicio */
+
+@media screen and (max-width: 500px) {
+    #inicio img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #inicio img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #duvidas {
+        padding: 1em 2em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #inicio {
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+/*clinica */
+
+@media screen and (max-width: 500px) {
+    #farmacia img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #clinica img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #farmacia img{
+        left: 10px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #clinica img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #clinica {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #farmacia img {
+        position: relative;
+        right: 3em;
+    }
+}
+
+/* duvidas */
+
+@media screen and (max-width: 1000px){
+    #duvidas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .duvida {
+        position: relative;
+    }
+
+    .duvida img {
+        position: absolute;
+        top: 1.5em;
+        right: 1.0em;
+        
+    }
+
+    .duvida h3 {
+        padding: 1em;
+        font-size: 15px;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    #duvidas .friends {
+        width: 100%;
+        height: 100%;
+    }
+
+    #duvidas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .duvida {
+        position: relative;
+    }
+
+    .duvida img {
+        position: absolute;
+        top: 1.5em;
+        right: 1.0em;
+        
+    }
+
+    .duvida h3 {
+        padding: 1em;
+        font-size: 15px;
+    }
+
+    #duvidas .arrow {
+        display: none;
+    }
+}
+
+
+/* Footer */ 
+
+@media screen and (max-width: 750px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer .titulo {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer .titulo {
+        flex-direction: row;
+    }
+}
