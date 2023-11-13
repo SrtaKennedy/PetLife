@@ -1,5 +1,22 @@
 /* header */
 
+
+@media screen and (max-width: 375px) {
+    img {
+        padding-bottom: 15px;
+    }
+
+    header {
+        display: flex;
+        padding: 1.5em 2em 1.5em 2em;
+    }
+
+    header nav{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 @media screen and (max-width: 500px) {
     
     img {
@@ -39,6 +56,24 @@
 
 
 /* inicio */
+
+@media screen and (max-width: 375px) {
+    #inicio {
+        gap: 3em;
+        padding: 1em 1em 4em 1em;
+        position: relative;
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .conteudo {
+        line-height: 150%;
+        margin-bottom: 3em;
+    }
+}
 
 @media screen and (max-width: 500px) {
     #inicio img {
@@ -84,6 +119,41 @@
 }
 
 /*clinica */
+
+@media screen and (max-width: 375px) {
+    #clinica {
+        display: flex;
+        align-items: center;
+        gap: 3em;
+        padding: 1em 2em;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    #farmacia {
+        padding: 1em 2em;
+    }
+
+    #farmacia img {
+    margin: 2em auto;
+}
+
+    .conteudo {
+        font-size: 14px;
+    }
+}
 
 @media screen and (max-width: 500px) {
     #farmacia img {
