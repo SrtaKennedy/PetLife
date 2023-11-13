@@ -149,6 +149,13 @@
     }
 }
 
+@media screen and (max-width: 1080px) {
+    #inicio {
+        gap: 1em;
+        padding: 2em 2em 5em 2em;
+    }
+}
+
 /*clinica */
 
 @media screen and (max-width: 412px) {
@@ -325,6 +332,15 @@
 
     #duvidas .arrow {
         display: none;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #duvidas {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        padding: 4em 4em;
     }
 }
 
