@@ -14,7 +14,7 @@
 
     header {
         display: block;
-        padding: 1.5em 3em 1.5em 5em;
+        padding: 1.5em 3em 1.5em 4em;
     }
 
     header nav {
@@ -277,38 +277,6 @@
 
 /* duvidas */
 
-@media screen and (max-width: 500px) {
-
-    #duvidas .friends {
-        width: 100%;
-        height: 100%;
-    }
-
-    #duvidas {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .duvida {
-        position: relative;
-    }
-
-    .duvida img {
-        position: absolute;
-        top: 1.5em;
-        right: 1.0em;
-        
-    }
-
-    .duvida h3 {
-        padding: 1em;
-        font-size: 15px;
-    }
-
-    #duvidas .arrow {
-        display: none;
-    }
-}
 
 @media screen and (max-width: 1000px){
     #duvidas {
@@ -342,6 +310,44 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+
+    #duvidas .friends {
+        width: 100%;
+        height: 100%;
+    }
+
+    #duvidas {
+        display: flex;
+        flex-direction: column;
+        padding: 3em 3em;
+    }
+
+    .duvida {
+        position: relative;
+    }
+
+    .duvida img {
+        position: absolute;
+        top: 1.5em;
+        right: 1.0em;
+        
+    }
+
+    .duvida h3 {
+        padding: 1em;
+        font-size: 15px;
+    }
+
+    #duvidas .arrow {
+        display: none;
+    }
+
+    .duvida .conteudo {
+        transition: .8s;
+    }
+}
+
 @media screen and (max-width: 375px) {
     #duvidas {
         padding: 2em 1em;
@@ -354,6 +360,13 @@
 
 
 /* Footer */ 
+
+@media screen and (max-width: 500px) {
+    footer {
+        padding: 4em 4em;
+        gap: 3em;
+    }
+}
 
 @media screen and (max-width: 750px) {
     footer {
