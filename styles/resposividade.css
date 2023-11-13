@@ -6,18 +6,6 @@
     }
 }
 
-
-@media screen and (max-width: 375px) {
-    img {
-        padding-bottom: 15px;
-    }
-
-    header {
-        padding: 1.5em 1em 1.5em 1em;
-    }
-    
-}
-
 @media screen and (max-width: 500px) {
     
     img {
@@ -37,6 +25,17 @@
         padding: 1em;
     }
 }
+
+@media screen and (max-width: 375px) {
+    img {
+        padding-bottom: 15px;
+    }
+
+    header {
+        padding: 1.5em 1em 1.5em 1em;
+    }
+}
+
 
 @media screen and (max-width: 600px) {
     img {
@@ -59,23 +58,6 @@
 
 /* inicio */
 
-@media screen and (max-width: 412px) {
-    #inicio {
-        padding: 1.5em 2em 5em 2em;
-    }
-
-    h1 {
-        font-size: 20px;
-        margin: 5px 0 15px 0;
-        padding: 10px 0px 5px 0;
-    }
-
-    p {
-        padding: 5px 0px 10px 0px;
-    }
-
-}
-
 @media screen and (max-width: 375px) {
     #inicio {
         gap: 3em;
@@ -92,6 +74,23 @@
         line-height: 150%;
         margin-bottom: 3em;
     }
+}
+
+@media screen and (max-width: 412px) {
+    #inicio {
+        padding: 1.5em 2em 5em 2em;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin: 5px 0 15px 0;
+        padding: 10px 0px 5px 0;
+    }
+
+    p {
+        padding: 5px 0px 10px 0px;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -173,40 +172,6 @@
     }
 }
 
-@media screen and (max-width: 375px) {
-    #clinica {
-        display: flex;
-        align-items: center;
-        gap: 3em;
-        padding: 1em 2em;
-    }
-
-    h2 {
-        font-size: 25px;
-    }
-
-    ul li {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    h2 {
-        font-size: 20px;
-    }
-
-    #farmacia {
-        padding: 1em 2em;
-    }
-
-    #farmacia img {
-    margin: 2em auto;
-}
-
-    .conteudo {
-        font-size: 14px;
-    }
-}
 
 @media screen and (max-width: 500px) {
     #farmacia img {
@@ -275,32 +240,42 @@
     }
 }
 
-/* duvidas */
-
-@media screen and (max-width: 1000px){
-    #duvidas {
+@media screen and (max-width: 375px) {
+    #clinica {
         display: flex;
-        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+        padding: 1em 2em;
     }
 
-    .duvida {
-        position: relative;
+    h2 {
+        font-size: 25px;
     }
 
-    .duvida img {
-        position: absolute;
-        top: 1.5em;
-        right: 1.0em;
-        
-    }
-
-    .duvida h3 {
-        padding: 1em;
-        font-size: 15px;
+    ul li {
+        font-size: 14px;
     }
 }
 
+@media screen and (max-width: 375px) {
+    h2 {
+        font-size: 20px;
+    }
 
+    #farmacia {
+        padding: 1em 2em;
+    }
+
+    #farmacia img {
+    margin: 2em auto;
+}
+
+    .conteudo {
+        font-size: 14px;
+    }
+}
+
+/* duvidas */
 
 @media screen and (max-width: 500px) {
 
@@ -335,12 +310,45 @@
     }
 }
 
+@media screen and (max-width: 1000px){
+    #duvidas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .duvida {
+        position: relative;
+    }
+
+    .duvida img {
+        position: absolute;
+        top: 1.5em;
+        right: 1.0em;
+        
+    }
+
+    .duvida h3 {
+        padding: 1em;
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width: 1080px) {
     #duvidas {
         display: flex;
         flex-direction: column;
         gap: 2em;
         padding: 4em 4em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #duvidas {
+        padding: 2em 1em;
+    }
+
+    .duvida h3 {
+        font-size: 15px;
     }
 }
 
@@ -364,5 +372,11 @@
 
     footer .titulo {
         flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    footer {
+        padding: 3em 3em;
     }
 }
