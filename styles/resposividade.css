@@ -45,6 +45,21 @@
         width: 100%;
         height: 100%;
     }
+
+    .botao {
+        background-color: var(--cor2);
+        color: #fff;
+        text-decoration: none;
+        padding: 1em 1em;
+        border-radius: 1em 0 1em 0;
+    }
+    
+    .botao-transparente {
+        background-color: transparent;
+        color: var(--cor2);
+        padding: 1em 1em;
+        text-underline-offset: 0.25em; 
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -139,6 +154,7 @@
 
 
 @media screen and (max-width: 500px) {
+
     #duvidas .friends {
         width: 100%;
         height: 100%;
