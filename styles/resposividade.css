@@ -173,34 +173,6 @@
 }
 
 
-@media screen and (max-width: 500px) {
-    #farmacia img {
-        width: 100%;
-        height: 100%;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    #clinica img {
-        width: 100%;
-        height: 100%;
-    }
-
-    #clinica {
-        padding: 3em 3em;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    #farmacia {
-        padding: 3em 3em;
-    }
-
-    h2 {
-        font-size: 25px;
-    }
-}
-
 @media screen and (max-width: 600px) {
     #farmacia img {
         left: 10px;
@@ -217,6 +189,23 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    #farmacia img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #farmacia {
+        padding: 3em 3em;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     #clinica img {
         width: 100%;
@@ -225,6 +214,17 @@
 
     #clinica {
         padding: 3em 3em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #clinica img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #clinica {
+        padding: 2em 2em;
     }
 }
 
